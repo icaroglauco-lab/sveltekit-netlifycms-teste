@@ -6095,9 +6095,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-e9e95577.js",
+      file: assets + "/_app/start-1888ddca.js",
       css: [assets + "/_app/assets/start-61d1577b.css"],
-      js: [assets + "/_app/start-e9e95577.js", assets + "/_app/chunks/vendor-725f1ec6.js"]
+      js: [assets + "/_app/start-1888ddca.js", assets + "/_app/chunks/vendor-725f1ec6.js"]
     },
     fetched: void 0,
     floc: false,
@@ -6166,7 +6166,7 @@ var module_lookup = {
     return contact;
   })
 };
-var metadata_lookup = { ".svelte-kit/build/components/layout.svelte": { "entry": "layout.svelte-75cc5cea.js", "css": [], "js": ["layout.svelte-75cc5cea.js", "chunks/vendor-725f1ec6.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-bee0030c.js", "css": [], "js": ["error.svelte-bee0030c.js", "chunks/vendor-725f1ec6.js"], "styles": [] }, "src/routes/index.md": { "entry": "pages/index.md-cffcd633.js", "css": [], "js": ["pages/index.md-cffcd633.js", "chunks/vendor-725f1ec6.js", "chunks/default-303db137.js"], "styles": [] }, "src/routes/contact.md": { "entry": "pages/contact.md-769980eb.js", "css": [], "js": ["pages/contact.md-769980eb.js", "chunks/vendor-725f1ec6.js", "chunks/default-303db137.js"], "styles": [] } };
+var metadata_lookup = { ".svelte-kit/build/components/layout.svelte": { "entry": "layout.svelte-75cc5cea.js", "css": [], "js": ["layout.svelte-75cc5cea.js", "chunks/vendor-725f1ec6.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-bee0030c.js", "css": [], "js": ["error.svelte-bee0030c.js", "chunks/vendor-725f1ec6.js"], "styles": [] }, "src/routes/index.md": { "entry": "pages/index.md-8e409bd6.js", "css": [], "js": ["pages/index.md-8e409bd6.js", "chunks/vendor-725f1ec6.js", "chunks/default-303db137.js"], "styles": [] }, "src/routes/contact.md": { "entry": "pages/contact.md-769980eb.js", "css": [], "js": ["pages/contact.md-769980eb.js", "chunks/vendor-725f1ec6.js", "chunks/default-303db137.js"], "styles": [] } };
 async function load_component(file) {
   const { entry, css: css2, js, styles } = metadata_lookup[file];
   return {
@@ -6234,7 +6234,7 @@ var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Default, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$1), {}, {
     default: () => `<h1>Welcome to the SvelteKit Netlify CMS example</h1>
 <p>This is the <a href="${"https://github.com/buhrmi/sveltekit-netlify-cms/blob/main/src/routes/index.md"}" rel="${"nofollow"}"><code>/routes/index.md</code></a> file, which is preprocessed by <a href="${"https://mdsvex.com"}" rel="${"nofollow"}">mdsvex</a> and is <a href="${"https://sveltekit-netlify-cms.netlify.app/admin/#/"}" target="${"_blank"}">editable through Netlify CMS</a></p>
-<p><a href="${"https://app.netlify.com/start/deploy?repository=https://github.com/buhrmi/sveltekit-netlify-cms&stack=cms"}" rel="${"nofollow"}"><img src="${"https://www.netlify.com/img/deploy/button.svg"}" alt="${"Deploy to Netlify"}"></a> or <a href="${"https://github.com/buhrmi/sveltekit-netlify-cms"}" rel="${"nofollow"}">view repo</a></p>`
+<p><a href="${"https://app.netlify.com/start/deploy?repository=https://github.com/icaroglauco-lab/sveltekit-netlifycms&stack=cms"}" rel="${"nofollow"}"><img src="${"https://www.netlify.com/img/deploy/button.svg"}" alt="${"Deploy to Netlify"}"></a> or <a href="${"https://github.com/buhrmi/sveltekit-netlify-cms"}" rel="${"nofollow"}">view repo</a></p>`
   })}`;
 });
 var index = /* @__PURE__ */ Object.freeze({
